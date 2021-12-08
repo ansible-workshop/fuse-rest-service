@@ -53,6 +53,11 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+
         <!-- Camel -->
         <dependency>
             <groupId>org.apache.camel</groupId>
@@ -158,6 +163,14 @@
                                     <exclude>fmp-openshift-route</exclude>
                                 </excludes>
                             </enricher>
+                            <generator>
+                                <config>
+                                    <spring-boot>
+                                        <fromMode>docker</fromMode>
+                                        <from>registry.redhat.io/fuse7/fuse-java-openshift:1.7-12</from>
+                                    </spring-boot>
+                                </config>
+                            </generator>
                         </configuration>
                         <executions>
                             <execution>
