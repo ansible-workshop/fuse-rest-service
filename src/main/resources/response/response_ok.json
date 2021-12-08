@@ -1,0 +1,16 @@
+{
+  "Header": {
+    "QtdOcorrencia": 1,
+    "CodigoErro":"0317",
+    "MensagemErro": "DADOS INCONSISTENTES",
+    "GrauSeveridade": 2,
+    "CodigoErroOrigem": 3,
+    "CodigoAbend": "",
+    "Tabela": "",
+    "Comando": "",
+    "SqlCode": 0,
+    "ProgramaOrigem": "CCL0132",
+    "Filler": ""
+  },
+  "Dados": ["       "]
+}

@@ -16,13 +16,18 @@
  */
 package br.com;
 
+import org.apache.camel.component.servlet.CamelHttpTransportServlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ImportResource;
+//import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 // load regular Spring XML file from the classpath that contains the Camel XML DSL
 @ImportResource({"classpath:spring/camel-context.xml"})
+//@PropertySource("file:/var/apl-pam-integration-ibd/config/application.properties")
 public class Application {
 
     /**
@@ -30,6 +35,17 @@ public class Application {
      */
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+    }
+
+    @Bean
+    public ServletRegistrationBean<CamelHttpTransportServlet> servletRegistrationBean() {
+
+        ServletRegistrationBean<CamelHttpTransportServlet> registration = new ServletRegistrationBean<>();
+        registration.setServlet(new CamelHttpTransportServlet());
+        registration.addUrlMappings("/*");
+        registration.setName("CamelServlet");
+
+        return registration;
     }
 
 }

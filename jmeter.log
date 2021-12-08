@@ -1,0 +1,24 @@
+2021-12-07 17:53:09,372 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-12-07 17:53:09,395 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/user.properties
+2021-12-07 17:53:09,395 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4.1/libexec/bin/system.properties
+2021-12-07 17:53:09,400 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-12-07 17:53:09,400 INFO o.a.j.JMeter: Version 5.4.1
+2021-12-07 17:53:09,400 INFO o.a.j.JMeter: java.version=17.0.1
+2021-12-07 17:53:09,400 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-12-07 17:53:09,400 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-12-07 17:53:09,400 INFO o.a.j.JMeter: os.arch=x86_64
+2021-12-07 17:53:09,400 INFO o.a.j.JMeter: os.version=12.0.1
+2021-12-07 17:53:09,401 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-12-07 17:53:09,401 INFO o.a.j.JMeter: java.awt.headless=null
+2021-12-07 17:53:09,401 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-12-07 17:53:09,401 INFO o.a.j.JMeter: Available Processors =16
+2021-12-07 17:53:09,408 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-12-07 17:53:09,408 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-12-07 17:53:09,408 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4.1/libexec
+2021-12-07 17:53:09,408 INFO o.a.j.JMeter: user.dir  =/Users/gabrielsampaio/redhat/workshops/ansible-workshop-dez-2021/fuse-rest-service
+2021-12-07 17:53:09,408 INFO o.a.j.JMeter: PWD       =/Users/gabrielsampaio/redhat/workshops/ansible-workshop-dez-2021/fuse-rest-service
+2021-12-07 17:53:09,409 INFO o.a.j.JMeter: IP: 192.168.0.19 Name: gsampaio-mac FullName: 192.168.0.19
+2021-12-07 17:53:11,422 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2021-12-07 17:53:12,358 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-12-07 17:53:13,176 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-8e2acc589aac4e5a5f0abfe709f7188e-gui
+2021-12-07 17:53:15,203 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.6, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1]
